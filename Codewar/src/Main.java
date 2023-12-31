@@ -1,8 +1,10 @@
-import Problems.FindUniq;
-import Problems.Order;
+import Problems.ArrayDiff;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(FindUniq.solve(new double[] { 1, 1, 2, 3, 3, 2, 4 }));
+        int[] result = ArrayDiff.solve(new int[] {1, 2, 2, 2, 3}, new int[] {2});
+        for (int number : result) {
+            System.out.println(number);
+        }
     }
 }
