@@ -1,4 +1,3 @@
-import Problems.Diamond;
 import Problems.FindOutlier;
 
 public class Main {
